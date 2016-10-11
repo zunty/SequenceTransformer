@@ -1,0 +1,17 @@
+323 big -1 343 short -1 370 short -1 -2
+361 big -1 365 short -1 -2
+307 big -1 2 big -1 2 big -1 2 big -1 120 big -1 116 big -1 117 big -1 1 big -1 115 big -1 2 big -1 1 big -1 117 big -1 -2
+350 big -1 40 big -1 -2
+315 big -1 3 big -1 40 big -1 31 big -1 29 big -1 33 big -1 -2
+318 short -1 332 big -1 337 short -1 338 short -1 339 short -1 340 short -1 342 medium -1 344 medium -1 346 big -1 -2
+310 big -1 29 big -1 -2
+345 big -1 2 big -1 118 big -1 -2
+309 big -1 310 big -1 311 big -1 361 medium -1 385 short -1 467 big -1 469 big -1 -2
+315 medium -1 318 medium -1 -2
+310 big -1 315 big -1 318 big -1 360 short -1 361 short -1 377 big -1 466 medium -1 -2
+333 big -1 -2
+318 big -1 59 big -1 11 big -1 -2
+329 big -1 1 big -1 -2
+339 big -1 17 big -1 1 big -1 11 big -1 23 big -1 4 big -1 -2
+385 big -1 1 big -1 7 big -1 -2
+332 big -1 8 big -1 -2
