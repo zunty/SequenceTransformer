@@ -51,11 +51,11 @@ public class duration {
 			else {if(!id.equals(splited[0]) && size > 1){
 
 				//Escreve todas as lojas
-				for (int i = 0; i < (saveString.size())/2; i=i+2) {
+				for (int i = 0; i < (saveString.size()); i=i+2) {
 					writer.write(saveString.get(i) + " " + addDuration(saveString.get(i+1)) + " -1 ");
-					System.out.println(saveString.get(i) + " " + addDuration(saveString.get(i+1)) + " -1 ");
+					System.out.print(saveString.get(i) + " " + addDuration(saveString.get(i+1)) + " -1 ");
 				}
-
+				System.out.println();
 				//Acaba sequência
 				writer.write("-2\n");
 
@@ -65,6 +65,7 @@ public class duration {
 				//Reinicia a próxima sequência
 				id = splited[0];
 				saveString.add(splited[1]);
+				saveString.add(splited[2]);
 				size = 0;
 				 
 			}
@@ -87,6 +88,7 @@ public class duration {
 
 	}
 
+	//Alterar critérios de definição de duração se assim for desejado
 	private static String addDuration(String duration) {
 		int dur = Integer.parseInt(duration);
 		
