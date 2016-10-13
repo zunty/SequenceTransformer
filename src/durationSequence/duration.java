@@ -52,8 +52,8 @@ public class duration {
 
 				//Escreve todas as lojas
 				for (int i = 0; i < (saveString.size()); i=i+2) {
-					writer.write(saveString.get(i) + " " + addDuration(saveString.get(i+1)) + " -1 ");
-					System.out.print(saveString.get(i) + " " + addDuration(saveString.get(i+1)) + " -1 ");
+					writer.write(saveString.get(i) + addDuration(saveString.get(i+1)) + " -1 ");
+					System.out.print(saveString.get(i) + addDuration(saveString.get(i+1)) + " -1 ");
 				}
 				System.out.println();
 				//Acaba sequência
