@@ -1,3 +1,4 @@
+#Substituição de nº loja pela categoria
 MENAGE ARTICLES AND UTENSILS CLOTHING IN GENERAL          
 VARIOUS DECORATIONS OBJECTS  CHILDREN'S WEAR              
 VARIOUS DECORATIONS OBJECTS  CLOTHING IN GENERAL          
@@ -326,21 +327,29 @@ JEANS AND CASUAL WEAR        LADIESWEAR
 
 
 #Elementos que aparecem mais freqentemente
-loja 536 - 54 - 16%
-loja 509 - 30 - 9%
-loja 381 - 26 - 8%
-loja 531 - 24 - 7%
-loja 487 - 24 - 7%
-loja 377 - 22 - 6%
-loja 385 - 21 - 6%
-loja 388 - 20 - 6%
-loja 370 - 17 - 5%
-loja 361 - 17 - 5%
+loja 536 - 54 vezes - 16%
+loja 509 - 30 vezes - 9%
+loja 381 - 26 vezes - 8%
+loja 531 - 24 vezes - 7%
+loja 487 - 24 vezes - 7%
+loja 377 - 22 vezes - 6%
+loja 385 - 21 vezes - 6%
+loja 388 - 20 vezes - 6%
+loja 370 - 17 vezes - 5%
+loja 361 - 17 vezes - 5%
 
 
 #Elementos que aparecem mais vezes no início
-18x: ... 381 - 5%
-17x: ... 361 - 5%
-15x: ... 377 - 4%
-15x: ... 370 - 4%
-14x: ... 371 - 4%
+18x: 381 ... - 5%
+17x: 361 ... - 5%
+15x: 377 ... - 4%
+15x: 370 ... - 4%
+14x: 371 ... - 4%
+
+
+#Elementos que aparecem mais vezes no fim
+53x: ... 536 - 16%
+24x: ... 509 - 7%
+22x: ... 531 - 6%
+16x: ... 487 - 4%
+12x: ... 501 - 3%
