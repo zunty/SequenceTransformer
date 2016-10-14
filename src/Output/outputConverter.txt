@@ -323,14 +323,24 @@ JEANS AND CASUAL WEAR        Miscellanious
 JEANS AND CASUAL WEAR        SUPERMARKET AND HIPERMARKET  
 JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
 JEANS AND CASUAL WEAR        LADIESWEAR                   
+
+
 #Elementos que aparecem mais freqentemente
- - 54 vezes 
- - 30 vezes 
- - 26 vezes 
- - 24 vezes 
- - 24 vezes 
- - 22 vezes 
- - 21 vezes 
- - 20 vezes 
- - 17 vezes 
- - 17 vezes 
+loja 536 - 54 - 16%
+loja 509 - 30 - 9%
+loja 381 - 26 - 8%
+loja 531 - 24 - 7%
+loja 487 - 24 - 7%
+loja 377 - 22 - 6%
+loja 385 - 21 - 6%
+loja 388 - 20 - 6%
+loja 370 - 17 - 5%
+loja 361 - 17 - 5%
+
+
+#Elementos que aparecem mais vezes no início
+18x: ... 381 - 5%
+17x: ... 361 - 5%
+15x: ... 377 - 4%
+15x: ... 370 - 4%
+14x: ... 371 - 4%
