@@ -19,7 +19,7 @@ public class Converter {
 	public static void main(String [] args) throws IOException {
 
 		// The name of the file to open.
-		String fileName = "src/input/inputconverter.txt";
+		String fileName = "src/input/durationSeq2.txt";		//#alterar o nome do ficheiro de entrada
 
 		// This will reference one line at a time
 		String line = null;
@@ -31,26 +31,25 @@ public class Converter {
 		// Always wrap FileReader in BufredReader.
 		Reader reader = new InputStreamReader(new FileInputStream(fileName), "utf-8");
 		BufferedReader br = new BufferedReader(reader);
-		//#alterar
-		FileWriter writer = new FileWriter("src/output/outputConverter4.txt", true);
+		//#alterar o nome do ficheiro de saída
+		FileWriter writer = new FileWriter("src/output/outputDuracao2.txt", true);
 		
 		writer.write("#Substituição de nº loja pela categoria\n");
 		int lojas[] = new int[1289];
 		int initlojas[] = new int[1289];
 		int endlojas[] = new int[1289];
 		int nSeq=0;
-		int seqSize = 4;
+		int seqSize = 2;			//#alterar dependendo do tamanho da sequência
 		int nLinha=0;//Controlar a verificação de elementos na primeira linha das sequências
 		while((line = br.readLine()) != null) {
 			//Separar dois valores de cada linha
 			nSeq++;
 			String[] splited = line.split("\\s+");
 			nLinha=0;
-			//#alterar
-			
+			//NOTA: LOJA 1288 = 301 e LOJA 1175 = 300, NO DURATION É NECESSÁRIO SUBSTITUIR ESTAS LOJAS PARA FUNCIONAR
 			for (int i = 0; i < splited.length; i++) {
-		
-				int store = Integer.parseInt(splited[i]);
+
+				int store = Integer.parseInt(splited[i].substring(0,3)); //#alterar adicionar .substring(0,2) quando é para a duração
 				switch (store) {
 				case 329:	writer.write("BANKS / FINANCIAL AGENTS     "); lojas[329]=lojas[329]+1; if(nLinha==0)initlojas[329]=initlojas[329]+1; else if(nLinha==seqSize-1)endlojas[329]=endlojas[329]+1;break;
 				case 330:	writer.write("BANKS / FINANCIAL AGENTS     "); lojas[330]=lojas[330]+1; if(nLinha==0)initlojas[330]=initlojas[330]+1; else if(nLinha==seqSize-1)endlojas[330]=endlojas[330]+1;break;
@@ -102,6 +101,7 @@ public class Converter {
 				case 532:	writer.write("CLOTHING IN GENERAL          "); lojas[532]=lojas[532]+1; if(nLinha==0)initlojas[532]=initlojas[532]+1; else if(nLinha==seqSize-1)endlojas[532]=endlojas[532]+1;break;
 				case 536:	writer.write("CLOTHING IN GENERAL          "); lojas[536]=lojas[536]+1; if(nLinha==0)initlojas[536]=initlojas[536]+1; else if(nLinha==seqSize-1)endlojas[536]=endlojas[536]+1;break;
 				case 1175:  writer.write("CLOTHING IN GENERAL          "); lojas[1175]=lojas[1175]+1; if(nLinha==0)initlojas[1175]=initlojas[1175]+1; else if(nLinha==seqSize-1)endlojas[1175]=endlojas[1175]+1;break;
+				case 300:  writer.write("CLOTHING IN GENERAL          "); lojas[1175]=lojas[1175]+1; if(nLinha==0)initlojas[1175]=initlojas[1175]+1; else if(nLinha==seqSize-1)endlojas[1175]=endlojas[1175]+1;break;
 				case 418:	writer.write("CLOTHING REPAIR              "); lojas[418]=lojas[418]+1; if(nLinha==0)initlojas[418]=initlojas[418]+1; else if(nLinha==seqSize-1)endlojas[418]=endlojas[418]+1;break;
 				case 310:	writer.write("COMMUNICATIONS               "); lojas[310]=lojas[310]+1; if(nLinha==0)initlojas[310]=initlojas[310]+1; else if(nLinha==seqSize-1)endlojas[310]=endlojas[310]+1;break;
 				case 315:	writer.write("COMMUNICATIONS               "); lojas[315]=lojas[315]+1; if(nLinha==0)initlojas[315]=initlojas[315]+1; else if(nLinha==seqSize-1)endlojas[315]=endlojas[315]+1;break;
@@ -137,6 +137,7 @@ public class Converter {
 				case 478:	writer.write("JEWELERY & ACCESSORIES       "); lojas[478]=lojas[478]+1; if(nLinha==0)initlojas[478]=initlojas[478]+1; else if(nLinha==seqSize-1)endlojas[478]=endlojas[478]+1;break;
 				case 508:	writer.write("JEWELERY & ACCESSORIES       "); lojas[508]=lojas[508]+1; if(nLinha==0)initlojas[508]=initlojas[508]+1; else if(nLinha==seqSize-1)endlojas[508]=endlojas[508]+1;break;
 				case 1288:  writer.write("JEWELERY & ACCESSORIES       "); lojas[1288]=lojas[1288]+1; if(nLinha==0)initlojas[1288]=initlojas[1288]+1; else if(nLinha==seqSize-1)endlojas[1288]=endlojas[1288]+1;break;
+				case 301:  writer.write("JEWELERY & ACCESSORIES       "); lojas[1288]=lojas[1288]+1; if(nLinha==0)initlojas[1288]=initlojas[1288]+1; else if(nLinha==seqSize-1)endlojas[1288]=endlojas[1288]+1;break;
 				case 477:	writer.write("LADIESWEAR                   "); lojas[477]=lojas[477]+1; if(nLinha==0)initlojas[477]=initlojas[477]+1; else if(nLinha==seqSize-1)endlojas[477]=endlojas[477]+1;break;
 				case 479:	writer.write("LADIESWEAR                   "); lojas[479]=lojas[479]+1; if(nLinha==0)initlojas[479]=initlojas[479]+1; else if(nLinha==seqSize-1)endlojas[479]=endlojas[479]+1;break;
 				case 484:	writer.write("LADIESWEAR                   "); lojas[484]=lojas[484]+1; if(nLinha==0)initlojas[484]=initlojas[484]+1; else if(nLinha==seqSize-1)endlojas[484]=endlojas[484]+1;break;
@@ -167,11 +168,11 @@ public class Converter {
 				case 416:	writer.write("MISCELLANEOUS                "); lojas[416]=lojas[416]+1; if(nLinha==0)initlojas[416]=initlojas[416]+1; else if(nLinha==seqSize-1)endlojas[416]=endlojas[416]+1;break;
 				case 476:	writer.write("MISCELLANEOUS                "); lojas[476]=lojas[476]+1; if(nLinha==0)initlojas[476]=initlojas[476]+1; else if(nLinha==seqSize-1)endlojas[476]=endlojas[476]+1;break;
 				case 535:	writer.write("MISCELLANEOUS                "); lojas[535]=lojas[535]+1; if(nLinha==0)initlojas[535]=initlojas[535]+1; else if(nLinha==seqSize-1)endlojas[535]=endlojas[535]+1;break;
-				case 387:	writer.write("Miscellanious                "); lojas[387]=lojas[387]+1; if(nLinha==0)initlojas[387]=initlojas[387]+1; else if(nLinha==seqSize-1)endlojas[387]=endlojas[387]+1;break;
-				case 419:	writer.write("Miscellanious                "); lojas[419]=lojas[419]+1; if(nLinha==0)initlojas[419]=initlojas[419]+1; else if(nLinha==seqSize-1)endlojas[419]=endlojas[419]+1;break;
-				case 470:	writer.write("Miscellanious                "); lojas[470]=lojas[470]+1; if(nLinha==0)initlojas[470]=initlojas[470]+1; else if(nLinha==seqSize-1)endlojas[470]=endlojas[470]+1;break;
-				case 499:	writer.write("Miscellanious                "); lojas[499]=lojas[499]+1; if(nLinha==0)initlojas[499]=initlojas[499]+1; else if(nLinha==seqSize-1)endlojas[499]=endlojas[499]+1;break;
-				case 531:	writer.write("Miscellanious                "); lojas[531]=lojas[531]+1; if(nLinha==0)initlojas[531]=initlojas[531]+1; else if(nLinha==seqSize-1)endlojas[531]=endlojas[531]+1;break;
+				case 387:	writer.write("MISCELLANEOUS                "); lojas[387]=lojas[387]+1; if(nLinha==0)initlojas[387]=initlojas[387]+1; else if(nLinha==seqSize-1)endlojas[387]=endlojas[387]+1;break;
+				case 419:	writer.write("MISCELLANEOUS                "); lojas[419]=lojas[419]+1; if(nLinha==0)initlojas[419]=initlojas[419]+1; else if(nLinha==seqSize-1)endlojas[419]=endlojas[419]+1;break;
+				case 470:	writer.write("MISCELLANEOUS                "); lojas[470]=lojas[470]+1; if(nLinha==0)initlojas[470]=initlojas[470]+1; else if(nLinha==seqSize-1)endlojas[470]=endlojas[470]+1;break;
+				case 499:	writer.write("MISCELLANEOUS                "); lojas[499]=lojas[499]+1; if(nLinha==0)initlojas[499]=initlojas[499]+1; else if(nLinha==seqSize-1)endlojas[499]=endlojas[499]+1;break;
+				case 531:	writer.write("MISCELLANEOUS                "); lojas[531]=lojas[531]+1; if(nLinha==0)initlojas[531]=initlojas[531]+1; else if(nLinha==seqSize-1)endlojas[531]=endlojas[531]+1;break;
 				case 338:	writer.write("N/D                          "); lojas[338]=lojas[338]+1; if(nLinha==0)initlojas[338]=initlojas[338]+1; else if(nLinha==seqSize-1)endlojas[338]=endlojas[338]+1;break;
 				case 393:	writer.write("N/D                          "); lojas[393]=lojas[393]+1; if(nLinha==0)initlojas[393]=initlojas[393]+1; else if(nLinha==seqSize-1)endlojas[393]=endlojas[393]+1;break;
 				case 401:	writer.write("N/D                          "); lojas[401]=lojas[401]+1; if(nLinha==0)initlojas[401]=initlojas[401]+1; else if(nLinha==seqSize-1)endlojas[401]=endlojas[401]+1;break;
