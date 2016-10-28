@@ -16,7 +16,7 @@ public class Refinement {
 	public static void main(String [] args) throws IOException {
 
 		// The name of the file to open.
-		String fileName = "src/input/inputCompleto.txt";
+		String fileName = "src/inputMovvo/inputMovvoCompleto.txt";
 
 		// This will reference one line at a time
 		String line = null;

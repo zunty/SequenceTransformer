@@ -13,12 +13,13 @@ import java.util.*;
 import javax.sound.sampled.Line;
 
 //WARNING: Alterar valor com a #alterar nos comentários dependendo do tamanho das sequências. Apenas devem ser corridos ficheiros com sequências do mesmo tamanho
-public class Converter {
+public class ConverterStoreDuration {
 	public static void main(String [] args) throws IOException {
 
 		// The name of the file to open.
-		String inputFileName = "src/input/refin1-seq2.txt";		//#alterar o nome do ficheiro de entrada
-		String outputFileName = "src/output/outputrefin1-seq2.txt";		//#alterar o nome do ficheiro de saída
+		String inputFileName = "src/outputStoreDuration/itemsStores+duration";		//#alterar o nome do ficheiro de entrada
+		String outputFileName = inputFileName + "Analysis.txt";		//#alterar o nome do ficheiro de saída se desejar
+		inputFileName = inputFileName + ".txt";
 		
 		// This will reference one line at a time
 		String line = null;	
@@ -28,10 +29,10 @@ public class Converter {
 		BufferedReader br = new BufferedReader(reader);
 		
 		FileWriter writer = new FileWriter(outputFileName, true);
-		FileWriter writeraux = new FileWriter("src/input/auxiliar.txt", true);
-		FileWriter writeraux2 = new FileWriter("src/input/auxiliar2.txt", true);
-		Reader readerAux = new InputStreamReader(new FileInputStream("src/input/auxiliar.txt"), "utf-8");
-		Reader readerAux2 = new InputStreamReader(new FileInputStream("src/input/auxiliar2.txt"), "utf-8");
+		FileWriter writeraux = new FileWriter("src/inputMovvo/auxiliar.txt", true);
+		FileWriter writeraux2 = new FileWriter("src/inputMovvo/auxiliar2.txt", true);
+		Reader readerAux = new InputStreamReader(new FileInputStream("src/inputMovvo/auxiliar.txt"), "utf-8");
+		Reader readerAux2 = new InputStreamReader(new FileInputStream("src/inputMovvo/auxiliar2.txt"), "utf-8");
 		BufferedReader brAux = new BufferedReader(readerAux);
 		BufferedReader brAux2 = new BufferedReader(readerAux2);
 
@@ -43,8 +44,11 @@ public class Converter {
 		int nSeq=0;
 		int seqSize = 2;			//#alterar dependendo do tamanho da sequência
 		int nLinha=0;//Controlar a verificação de elementos na primeira linha das sequências
+		int elemCounter[]=new int[500];
+		int aux = -1;
 		while((line = br.readLine()) != null) {
 			//Separar valores de cada linha
+			aux++;
 			nSeq++;
 			String[] splited = line.split("\\s+");
 			nLinha=0;
@@ -235,28 +239,28 @@ public class Converter {
 				case 492:	writer.write("UNDERWEAR                    "); writeraux.write("UNDERWEAR                    \n"); lojas[492]=lojas[492]+1; if(nLinha==0)initlojas[492]=initlojas[492]+1; else if(nLinha==seqSize-1)endlojas[492]=endlojas[492]+1;break;
 				case 307:	writer.write("VARIOUS DECORATIONS OBJECTS  "); writeraux.write("VARIOUS DECORATIONS OBJECTS  \n"); lojas[307]=lojas[307]+1; if(nLinha==0)initlojas[307]=initlojas[307]+1; else if(nLinha==seqSize-1)endlojas[307]=endlojas[307]+1;break;
 				case 524: 	writer.write("VARIOUS DECORATIONS OBJECTS  "); writeraux.write("VARIOUS DECORATIONS OBJECTS  \n"); lojas[524]=lojas[524]+1; if(nLinha==0)initlojas[524]=initlojas[524]+1; else if(nLinha==seqSize-1)endlojas[524]=endlojas[524]+1;break;
-				
-				
-	            default: writer.write("-------- ");writeraux.write("-------- ");
-				         System.out.print("------- ");
+				case 1:     writer.write("s ");                             writeraux.write("s \n");                           lojas[1]=lojas[1]+1; if(nLinha==0)initlojas[1]=initlojas[1]+1; else if(nLinha==seqSize-1)endlojas[1]=endlojas[1]+1;break;
+				case 2:     writer.write("m ");                             writeraux.write("m \n");                           lojas[2]=lojas[2]+1; if(nLinha==0)initlojas[2]=initlojas[2]+1; else if(nLinha==seqSize-1)endlojas[2]=endlojas[2]+1;break;
+				case 3:     writer.write("l ");                             writeraux.write("l \n");                           lojas[3]=lojas[3]+1; if(nLinha==0)initlojas[3]=initlojas[3]+1; else if(nLinha==seqSize-1)endlojas[3]=endlojas[3]+1;break;
+				case -1: writer.write("-1 ");writeraux.write("-1 "); elemCounter[aux]=elemCounter[aux]+1;break;
+				default: 
                          break;
 			}
 				nLinha++;
 			}
 				//Acaba sequência
+			elemCounter[aux]=elemCounter[aux]+1;
 				writer.write("\n");
 				writeraux.write("par\n");
 
 		}  
-		//Descobre as 10 lojas mais presentes em sequências
+		//Descobre as 10 lojas mais presentes em sequências, no início e no fim
 		int largest[][] = top10Stores(lojas);
 		int initials[][] = top10Stores(initlojas);
-		int endings[][] = top10Stores(endlojas);
 		
 		line = null;
 		int categories[][] = new int[52][3];
 		int categoriesAux[] = new int[52];
-		int repCat[] = new int[52];
 		writeraux.close();         
 
 		boolean novaLinha = false;
@@ -324,115 +328,23 @@ public class Converter {
 				for(int i = 0; i< categories.length ; i++){
 					categories[i][0]=0;
 				}
-				//Verifica se a linha é toda da mesma categoria
-				for(int i = 0; i< categories.length ; i++){
-					if(categories[i][2]==seqSize){repCat[i]=repCat[i]+1;}
-					categories[i][2]=0;
-				}
 				novaLinha=false;
 			}
 			
 		} 
 		
 		writeraux2.close(); 
-		/*
-		line = null;
-		List<Integer> Linelist = new ArrayList<Integer>();		//Encontra relações de tipos de loja
-		int relationsCat[][]= new int[52][52];
 		
-		while((line = brAux2.readLine()) != null) {
-			//Separar valores de cada linha
-			String[] splited = line.split("\\s+");
-			
-			for (int i = 0; i < splited.length; i++){
-				int store = Integer.parseInt(splited[i]);
-				switch (store) {
-				case 1:	 Linelist.add(1);  break;
-				case 2:	 Linelist.add(2);  break;
-				case 3:	 Linelist.add(3);  break;
-				case 4:	 Linelist.add(4);  break;
-				case 5:	 Linelist.add(5);  break;
-				case 6:	 Linelist.add(6);  break;
-				case 7:	 Linelist.add(7);  break;
-				case 8:	 Linelist.add(8);  break;
-				case 9:	 Linelist.add(9);  break;
-				case 10: Linelist.add(10); break;
-				case 11: Linelist.add(11); break;
-				case 12: Linelist.add(12); break;
-				case 13: Linelist.add(13); break;
-				case 14: Linelist.add(14); break;
-				case 15: Linelist.add(15); break;
-				case 16: Linelist.add(16); break;
-				case 17: Linelist.add(17); break;
-				case 18: Linelist.add(18); break;
-				case 19: Linelist.add(19); break;
-				case 20: Linelist.add(20); break;
-				case 21: Linelist.add(21); break;
-				case 22: Linelist.add(22); break;
-				case 23: Linelist.add(23); break;
-				case 24: Linelist.add(24); break;
-				case 25: Linelist.add(25); break;
-				case 26: Linelist.add(26); break;
-				case 27: Linelist.add(27); break;
-				case 28: Linelist.add(28); break;
-				case 29: Linelist.add(29); break;
-				case 30: Linelist.add(30); break;
-				case 31: Linelist.add(31); break;
-				case 32: Linelist.add(32); break;
-				case 33: Linelist.add(33); break;
-				case 34: Linelist.add(34); break;
-				case 35: Linelist.add(35); break;
-				case 36: Linelist.add(36); break;
-				case 37: Linelist.add(37); break;
-				case 38: Linelist.add(38); break;
-				case 39: Linelist.add(39); break;
-				case 40: Linelist.add(40); break;
-				case 41: Linelist.add(41); break;
-				case 42: Linelist.add(42); break;
-				case 43: Linelist.add(43); break;
-				case 44: Linelist.add(44); break;
-				case 45: Linelist.add(45); break;
-				case 46: Linelist.add(46); break;
-				case 47: Linelist.add(47); break;
-				case 48: Linelist.add(48); break;
-				case 49: Linelist.add(49); break;
-				case 50: Linelist.add(50); break;
-				case 51: Linelist.add(51);  break;
-	            default: System.out.print("------- ");break;
-			}}
-		       for(int i = 0; i < Linelist.size(); i++) {
-		            System.out.print(Linelist.get(i).toString() + " ");
-		            for(int j = 0; j<Linelist.size();j++){
-			            relationsCat[i+1][Linelist.get(j)]=relationsCat[i+1][Linelist.get(j)] + 1;
-		            }
-		        }
-		       System.out.println();   
-			Linelist.clear();
-		} 
-		
-		for(int i = 0; i<52; i++)
-		{
-		    for(int j = 0; j<52; j++)
-		    {
-		    	if(relationsCat[i][j] > 0)
-		        System.out.print(i + " + " + j + " - " + relationsCat[i][j] + " | ");
-		    }
-		    System.out.println();
-		}	
-		*/	
 		for(int i = 0; i< categories.length ; i++){
 			categoriesAux[i]=categories[i][1];
 		}
 		
 		int topcategories[][] = top10Stores(categoriesAux);
-		int topRepeated[][] = top10Stores(repCat);
 		
 		writer.write("\n\n#Estatísticas Gerais\n");
 		System.out.println("\n#Estatísticas Gerais");
 		writer.write("Número de Sequências: " + nSeq + "\n");
 		System.out.println("Número de Sequências: " + nSeq);
-		writer.write("Tamanho das Sequências: " + seqSize + "\n");
-		System.out.println("Tamanho das Sequências: " + seqSize);
 		System.out.println("Ficheiro de Entrada: " + inputFileName);
 		writer.write("Ficheiro de Entrada: " + inputFileName + "\n");
 		System.out.println("Ficheiro de Saída: " + outputFileName);
@@ -452,12 +364,6 @@ public class Converter {
 			System.out.println(initials[i][1] + "x: " + initials[i][0] + " ... - " + (initials[i][1]*100/nSeq) + "%");	
 		}
 		
-        writer.write("\n\n#Elementos que aparecem mais vezes no fim\n");
-		System.out.println("\n#Elementos que aparecem mais vezes no fim");
-		for(int i=0 ; i<=4;i++){
-			writer.write(endings[i][1] + "x: ... " + endings[i][0] + " - " + (endings[i][1]*100/nSeq) + "%\n");
-			System.out.println(endings[i][1] + "x: ... " + endings[i][0] + " - " + (endings[i][1]*100/nSeq) + "%");	
-		}
 		
 		writer.write("\n\n#Categorias mais frequentes\n");
 		System.out.println("\n#Categorias mais frequentes");
@@ -465,15 +371,6 @@ public class Converter {
 			writer.write(topcategories[i][1] + "x: Categoria " + giveCategory(topcategories[i][0]) + " - " + (topcategories[i][1]*100/nSeq) + "%\n");
 			System.out.println(topcategories[i][1] + "x: Categoria " + giveCategory(topcategories[i][0]) + " - " + (topcategories[i][1]*100/nSeq) + "%");	
 		}
-		
-		writer.write("\n\n#Categorias únicas numa sequência\n");
-		System.out.println("\n#Categorias únicas numa sequência");
-		for(int i=0 ; i<=9;i++){
-			if(topRepeated[i][1]!=0){
-			writer.write(topRepeated[i][1] + "x: Categoria " + giveCategory(topRepeated[i][0]) + " - " + (topRepeated[i][1]*100/nSeq) + "%\n");
-			System.out.println(topRepeated[i][1] + "x: Categoria " + giveCategory(topRepeated[i][0]) + " - " + (topRepeated[i][1]*100/nSeq) + "%");	
-			}
-			}
 		
 		
 		
@@ -667,13 +564,6 @@ public class Converter {
 		return largest;
 	}
 	
-	private static int[][] relationsFinder(int[] category){
-		int relations[][]= new int [10][10];
-		
-		
-		
-		return relations;
-	}
 }
 	
 

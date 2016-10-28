@@ -1,0 +1,396 @@
+#Substituição de nº loja pela categoria
+s -1 s -1 s -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 s -1 s -1 s MISCELLANEOUS                -1 s CLOTHING IN GENERAL          
+s -1 s -1 s -1 s CLOTHING IN GENERAL          -1 s JEANS AND CASUAL WEAR        
+s -1 s -1 s -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 s -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 s -1 s -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+s -1 s -1 s -1 l JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+s -1 s -1 s MISCELLANEOUS                -1 s CLOTHING IN GENERAL          
+s -1 s -1 s OPTICIAN                     -1 s LEATHER GOODS / ACCESSORIES  
+s -1 s -1 s OPTICIAN                     -1 s LEATHER GOODS / ACCESSORIES  -1 s 
+s -1 s -1 s BIJOUTERIE                   -1 s -1 s JEANS AND CASUAL WEAR        
+s -1 s -1 s BIJOUTERIE                   -1 s JEANS AND CASUAL WEAR        
+s -1 s -1 s UNDERWEAR                    -1 s SHOE STORE IN GENERAL        
+s -1 s -1 s LADIESWEAR                   -1 s CLOTHING IN GENERAL          
+s -1 s -1 s CLOTHING IN GENERAL          -1 s JEANS AND CASUAL WEAR        
+s -1 s -1 s JEANS AND CASUAL WEAR        -1 s CLOTHING IN GENERAL          
+s -1 s -1 s JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+s -1 s -1 l -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 s -1 l -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 s -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 s -1 l -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+s -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 s -1 l LADIESWEAR                   -1 s -1 l CLOTHING IN GENERAL          
+s -1 s -1 l LADIESWEAR                   -1 l -1 l CLOTHING IN GENERAL          
+s -1 s -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+s -1 s -1 l CLOTHING IN GENERAL          -1 l JEANS AND CASUAL WEAR        
+s -1 s -1 l JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+s -1 s MISCELLANEOUS                -1 s CLOTHING IN GENERAL          
+s -1 s MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 s CHILDREN'S WEAR              -1 s CHILDREN'S WEAR              
+s -1 s CHILDREN'S WEAR              -1 s CHILDREN'S WEAR              -1 s 
+s -1 s CHILDREN'S WEAR              -1 s UNDERWEAR                    
+s -1 s CHILDREN'S WEAR              -1 s SHOE STORE IN GENERAL        
+s -1 s JEWELERY & ACCESSORIES       -1 s BIJOUTERIE                   
+s -1 s OPTICIAN                     -1 s -1 s -1 s JEANS AND CASUAL WEAR        
+s -1 s OPTICIAN                     -1 s -1 s CLOTHING IN GENERAL          
+s -1 s OPTICIAN                     -1 s -1 s JEANS AND CASUAL WEAR        
+s -1 s OPTICIAN                     -1 s LEATHER GOODS / ACCESSORIES  
+s -1 s OPTICIAN                     -1 s LEATHER GOODS / ACCESSORIES  -1 s 
+s -1 s OPTICIAN                     -1 s LEATHER GOODS / ACCESSORIES  -1 s -1 s 
+s -1 s OPTICIAN                     -1 s LEATHER GOODS / ACCESSORIES  -1 s -1 s -1 s 
+s -1 s OPTICIAN                     -1 s BIJOUTERIE                   
+s -1 s OPTICIAN                     -1 s BIJOUTERIE                   -1 s 
+s -1 s OPTICIAN                     -1 s CLOTHING IN GENERAL          
+s -1 s OPTICIAN                     -1 s JEANS AND CASUAL WEAR        
+s -1 s BIJOUTERIE                   -1 s -1 s JEANS AND CASUAL WEAR        
+s -1 s BIJOUTERIE                   -1 s CLOTHING IN GENERAL          
+s -1 s BIJOUTERIE                   -1 s UNDERWEAR                    
+s -1 s BIJOUTERIE                   -1 s CLOTHING IN GENERAL          
+s -1 s BIJOUTERIE                   -1 s JEANS AND CASUAL WEAR        
+s -1 s UNDERWEAR                    -1 s STATIONARY & CRAFT ARTICLES  
+s -1 s UNDERWEAR                    -1 s STATIONARY & CRAFT ARTICLES  -1 s 
+s -1 s UNDERWEAR                    -1 s JEANS AND CASUAL WEAR        
+s -1 s STATIONARY & CRAFT ARTICLES  -1 s SILVER & PLATINGS            
+s -1 s STATIONARY & CRAFT ARTICLES  -1 s SILVER & PLATINGS            -1 s 
+s -1 s SILVER & PLATINGS            -1 s BIJOUTERIE                   
+s -1 s SILVER & PLATINGS            -1 s BIJOUTERIE                   -1 s 
+s -1 s LADIESWEAR                   -1 s LADIESWEAR                   
+s -1 s UNDERWEAR                    -1 s SHOE STORE IN GENERAL        
+s -1 s SHOE STORE IN GENERAL        -1 s CLOTHING IN GENERAL          
+s -1 s SHOE STORE IN GENERAL        -1 s LADIESWEAR                   
+s -1 s SHOE STORE IN GENERAL        -1 s LEATHER GOODS / ACCESSORIES  
+s -1 s LADIESWEAR                   -1 s CLOTHING IN GENERAL          
+s -1 s LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+s -1 s CLOTHING IN GENERAL          -1 s JEANS AND CASUAL WEAR        
+s -1 s CLOTHING IN GENERAL          -1 l CLOTHING IN GENERAL          
+s -1 s JEANS AND CASUAL WEAR        -1 s CLOTHING IN GENERAL          
+s -1 s JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+s -1 m -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 l -1 s -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 l -1 s -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 l -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 l -1 s -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+s -1 l -1 l -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 l -1 l -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 l -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 l -1 l -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+s -1 l -1 l -1 l JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+s -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 l -1 l LADIESWEAR                   -1 l -1 l CLOTHING IN GENERAL          
+s -1 l -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+s -1 l -1 l CLOTHING IN GENERAL          -1 l JEANS AND CASUAL WEAR        
+s -1 l -1 l JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s -1 l BIJOUTERIE                   -1 s -1 l CLOTHING IN GENERAL          
+s -1 l BIJOUTERIE                   -1 s -1 l JEANS AND CASUAL WEAR        
+s -1 l BIJOUTERIE                   -1 l -1 l CLOTHING IN GENERAL          
+s -1 l BIJOUTERIE                   -1 l -1 l JEANS AND CASUAL WEAR        
+s -1 l BIJOUTERIE                   -1 l CLOTHING IN GENERAL          
+s -1 l BIJOUTERIE                   -1 l JEANS AND CASUAL WEAR        
+s -1 l UNDERWEAR                    -1 l STATIONARY & CRAFT ARTICLES  
+s -1 l UNDERWEAR                    -1 l JEANS AND CASUAL WEAR        
+s -1 l SHOE STORE IN GENERAL        -1 l CLOTHING IN GENERAL          
+s -1 l LADIESWEAR                   -1 s -1 l CLOTHING IN GENERAL          
+s -1 l LADIESWEAR                   -1 l -1 l CLOTHING IN GENERAL          
+s -1 l LADIESWEAR                   -1 l MISCELLANEOUS                
+s -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+s -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+s -1 l CLOTHING IN GENERAL          -1 l CLOTHING IN GENERAL          
+s -1 l CLOTHING IN GENERAL          -1 l JEANS AND CASUAL WEAR        
+s -1 l JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+s -1 LADIESWEAR                   -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s MISCELLANEOUS                -1 s CLOTHING IN GENERAL          
+s MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+s COMMUNICATIONS               -1 s MATRESS                      
+s COMMUNICATIONS               -1 s MATRESS                      -1 s 
+s MATRESS                      -1 s -1 s SUPERMARKET AND HIPERMARKET  
+s MATRESS                      -1 s SUPERMARKET AND HIPERMARKET  
+s TEENAGERS WEAR               -1 s CLOTHING IN GENERAL          
+s TEENAGERS WEAR               -1 s JEWELERY & ACCESSORIES       
+s TEENAGERS WEAR               -1 s JEWELERY & ACCESSORIES       -1 s 
+s BANKS / FINANCIAL AGENTS     -1 s SUPERMARKET AND HIPERMARKET  
+s CLOTHING IN GENERAL          -1 s JEWELERY & ACCESSORIES       
+s JEWELERY & ACCESSORIES       -1 s SHOE STORE IN GENERAL        
+s JEWELERY & ACCESSORIES       -1 s SHOE STORE IN GENERAL        -1 s 
+s CLOTHING IN GENERAL          -1 s CHILDREN'S WEAR              
+s CLOTHING IN GENERAL          -1 s CHILDREN'S WEAR              -1 s 
+s CLOTHING IN GENERAL          -1 s CHILDREN'S WEAR              
+s CLOTHING IN GENERAL          -1 s CHILDREN'S WEAR              -1 s 
+s CLOTHING IN GENERAL          -1 s CHILDREN'S WEAR              -1 s -1 s 
+s CHILDREN'S WEAR              -1 s CHILDREN'S WEAR              
+s CHILDREN'S WEAR              -1 s CHILDREN'S WEAR              -1 s 
+s CHILDREN'S WEAR              -1 s CHILDREN'S WEAR              
+s CHILDREN'S WEAR              -1 s CHILDREN'S WEAR              -1 s 
+s CHILDREN'S WEAR              -1 s CHILDREN'S WEAR              -1 s -1 s 
+s CHILDREN'S WEAR              -1 s -1 s SHOE STORE IN GENERAL        
+s CHILDREN'S WEAR              -1 s UNDERWEAR                    
+s CHILDREN'S WEAR              -1 s SHOE STORE IN GENERAL        
+s CLOTHING IN GENERAL          -1 s -1 s -1 s CLOTHING IN GENERAL          
+s CLOTHING IN GENERAL          -1 s -1 s MISCELLANEOUS                
+s CLOTHING IN GENERAL          -1 s -1 s CLOTHING IN GENERAL          
+s CLOTHING IN GENERAL          -1 s -1 l CLOTHING IN GENERAL          
+s CLOTHING IN GENERAL          -1 s MISCELLANEOUS                
+s CLOTHING IN GENERAL          -1 s CLOTHING IN GENERAL          
+s CLOTHING IN GENERAL          -1 s OPTICIAN                     
+s CLOTHING IN GENERAL          -1 s OPTICIAN                     -1 s 
+s CLOTHING IN GENERAL          -1 l CLOTHING IN GENERAL          
+s SHOE STORE IN GENERAL        -1 s -1 s CLOTHING IN GENERAL          
+s SHOE STORE IN GENERAL        -1 s CLOTHING IN GENERAL          
+s SHOE STORE IN GENERAL        -1 s MISCELLANEOUS                
+s SHOE STORE IN GENERAL        -1 s MISCELLANEOUS                -1 s 
+s SHOE STORE IN GENERAL        -1 s MISCELLANEOUS                -1 s -1 s 
+s SHOE STORE IN GENERAL        -1 s CLOTHING IN GENERAL          
+s MISCELLANEOUS                -1 s -1 s -1 s JEANS AND CASUAL WEAR        
+s MISCELLANEOUS                -1 s -1 s CLOTHING IN GENERAL          
+s MISCELLANEOUS                -1 s -1 s JEANS AND CASUAL WEAR        
+s MISCELLANEOUS                -1 s OPTICIAN                     
+s MISCELLANEOUS                -1 s OPTICIAN                     -1 s 
+s MISCELLANEOUS                -1 s OPTICIAN                     -1 s -1 s 
+s MISCELLANEOUS                -1 s OPTICIAN                     -1 s -1 s -1 s 
+s MISCELLANEOUS                -1 s BIJOUTERIE                   
+s MISCELLANEOUS                -1 s CLOTHING IN GENERAL          
+s MISCELLANEOUS                -1 s JEANS AND CASUAL WEAR        
+s JEWELERY & ACCESSORIES       -1 s -1 s JEANS AND CASUAL WEAR        
+s JEWELERY & ACCESSORIES       -1 s OPTICIAN                     
+s JEWELERY & ACCESSORIES       -1 s OPTICIAN                     -1 s 
+s JEWELERY & ACCESSORIES       -1 s BIJOUTERIE                   
+s JEWELERY & ACCESSORIES       -1 s BIJOUTERIE                   -1 s 
+s JEWELERY & ACCESSORIES       -1 s BIJOUTERIE                   -1 s -1 s 
+s JEWELERY & ACCESSORIES       -1 s JEANS AND CASUAL WEAR        
+s HAIRDRESSER                  -1 s OPTICIAN                     
+s OPTICIAN                     -1 s -1 s -1 s JEANS AND CASUAL WEAR        
+s OPTICIAN                     -1 s -1 s CLOTHING IN GENERAL          
+s OPTICIAN                     -1 s -1 s CLOTHING IN GENERAL          
+s OPTICIAN                     -1 s -1 s JEANS AND CASUAL WEAR        
+s OPTICIAN                     -1 s -1 l CLOTHING IN GENERAL          
+s OPTICIAN                     -1 s CLOTHING IN GENERAL          
+s OPTICIAN                     -1 s LEATHER GOODS / ACCESSORIES  
+s OPTICIAN                     -1 s LEATHER GOODS / ACCESSORIES  -1 s 
+s OPTICIAN                     -1 s LEATHER GOODS / ACCESSORIES  -1 s -1 s 
+s OPTICIAN                     -1 s LEATHER GOODS / ACCESSORIES  -1 s -1 s -1 s 
+s OPTICIAN                     -1 s BIJOUTERIE                   
+s OPTICIAN                     -1 s BIJOUTERIE                   -1 s 
+s OPTICIAN                     -1 s BIJOUTERIE                   -1 s -1 s 
+s OPTICIAN                     -1 s CLOTHING IN GENERAL          
+s OPTICIAN                     -1 s CLOTHING IN GENERAL          -1 s 
+s OPTICIAN                     -1 s JEANS AND CASUAL WEAR        
+s OPTICIAN                     -1 l CLOTHING IN GENERAL          
+s LEATHER GOODS / ACCESSORIES  -1 s BIJOUTERIE                   
+s BIJOUTERIE                   -1 s -1 s -1 s JEANS AND CASUAL WEAR        
+s BIJOUTERIE                   -1 s -1 s CLOTHING IN GENERAL          
+s BIJOUTERIE                   -1 s -1 s JEANS AND CASUAL WEAR        
+s BIJOUTERIE                   -1 s CLOTHING IN GENERAL          
+s BIJOUTERIE                   -1 s UNDERWEAR                    
+s BIJOUTERIE                   -1 s UNDERWEAR                    -1 s 
+s BIJOUTERIE                   -1 s UNDERWEAR                    -1 s -1 s 
+s BIJOUTERIE                   -1 s STATIONARY & CRAFT ARTICLES  
+s BIJOUTERIE                   -1 s CLOTHING IN GENERAL          
+s BIJOUTERIE                   -1 s CLOTHING IN GENERAL          -1 s 
+s BIJOUTERIE                   -1 s JEANS AND CASUAL WEAR        
+s BIJOUTERIE                   -1 s JEANS AND CASUAL WEAR        -1 s 
+s BIJOUTERIE                   -1 l CLOTHING IN GENERAL          
+s UNDERWEAR                    -1 s -1 s -1 s JEANS AND CASUAL WEAR        
+s UNDERWEAR                    -1 s -1 s JEANS AND CASUAL WEAR        
+s UNDERWEAR                    -1 s STATIONARY & CRAFT ARTICLES  
+s UNDERWEAR                    -1 s STATIONARY & CRAFT ARTICLES  -1 s 
+s UNDERWEAR                    -1 s STATIONARY & CRAFT ARTICLES  -1 s -1 s 
+s UNDERWEAR                    -1 s SILVER & PLATINGS            
+s UNDERWEAR                    -1 s SILVER & PLATINGS            -1 s 
+s UNDERWEAR                    -1 s BIJOUTERIE                   
+s UNDERWEAR                    -1 s BIJOUTERIE                   -1 s 
+s UNDERWEAR                    -1 s JEANS AND CASUAL WEAR        
+s UNDERWEAR                    -1 l CLOTHING IN GENERAL          
+s STATIONARY & CRAFT ARTICLES  -1 s -1 s MENAGE ARTICLES AND UTENSILS 
+s STATIONARY & CRAFT ARTICLES  -1 s MENAGE ARTICLES AND UTENSILS 
+s STATIONARY & CRAFT ARTICLES  -1 s SILVER & PLATINGS            
+s STATIONARY & CRAFT ARTICLES  -1 s SILVER & PLATINGS            -1 s 
+s STATIONARY & CRAFT ARTICLES  -1 s SILVER & PLATINGS            -1 s -1 s 
+s STATIONARY & CRAFT ARTICLES  -1 s BIJOUTERIE                   
+s STATIONARY & CRAFT ARTICLES  -1 s BIJOUTERIE                   -1 s 
+s STATIONARY & CRAFT ARTICLES  -1 s JEANS AND CASUAL WEAR        
+s SILVER & PLATINGS            -1 s BIJOUTERIE                   
+s SILVER & PLATINGS            -1 s BIJOUTERIE                   -1 s 
+s SILVER & PLATINGS            -1 s BIJOUTERIE                   -1 s -1 s 
+s BIJOUTERIE                   -1 s MENAGE ARTICLES AND UTENSILS 
+s BIJOUTERIE                   -1 s MISCELLANEOUS                
+s LADIESWEAR                   -1 s SHOE STORE IN GENERAL        
+s LADIESWEAR                   -1 s LADIESWEAR                   
+s LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+s UNDERWEAR                    -1 s SHOE STORE IN GENERAL        
+s SHOE STORE IN GENERAL        -1 s CLOTHING IN GENERAL          
+s SHOE STORE IN GENERAL        -1 s LADIESWEAR                   
+s SHOE STORE IN GENERAL        -1 s LEATHER GOODS / ACCESSORIES  
+s LADIESWEAR                   -1 s -1 s CLOTHING IN GENERAL          
+s LADIESWEAR                   -1 s MISCELLANEOUS                
+s LADIESWEAR                   -1 s CLOTHING IN GENERAL          
+s LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+s LADIESWEAR                   -1 s MISCELLANEOUS                
+s LADIESWEAR                   -1 s CLOTHING IN GENERAL          
+s LADIESWEAR                   -1 s CLOTHING IN GENERAL          
+s CLOTHING IN GENERAL          -1 s CLOTHING IN GENERAL          
+s CLOTHING IN GENERAL          -1 s JEANS AND CASUAL WEAR        
+s CLOTHING IN GENERAL          -1 l CLOTHING IN GENERAL          
+s JEANS AND CASUAL WEAR        -1 s CLOTHING IN GENERAL          
+s JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+m -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+m -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+m -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+m -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+m -1 l JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+l -1 s -1 s -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 s -1 s -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 s -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 s -1 s -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+l -1 s -1 l -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 s -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 s -1 l -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+l -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 s -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+l -1 s -1 l CLOTHING IN GENERAL          -1 l JEANS AND CASUAL WEAR        
+l -1 s -1 l JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+l -1 s JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+l -1 m -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 l -1 s -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 l -1 s -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 l -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 l -1 s -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+l -1 l -1 s -1 l JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+l -1 l -1 l -1 s -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 l -1 l -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 l -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 l -1 l -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+l -1 l -1 l -1 l JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+l -1 l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 l -1 l LADIESWEAR                   -1 l -1 l CLOTHING IN GENERAL          
+l -1 l -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+l -1 l -1 l CLOTHING IN GENERAL          -1 l JEANS AND CASUAL WEAR        
+l -1 l -1 l JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+l -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l -1 l BIJOUTERIE                   -1 s -1 l -1 l CLOTHING IN GENERAL          
+l -1 l BIJOUTERIE                   -1 s -1 l CLOTHING IN GENERAL          
+l -1 l BIJOUTERIE                   -1 s -1 l JEANS AND CASUAL WEAR        
+l -1 l BIJOUTERIE                   -1 l -1 l -1 l CLOTHING IN GENERAL          
+l -1 l BIJOUTERIE                   -1 l -1 l CLOTHING IN GENERAL          
+l -1 l BIJOUTERIE                   -1 l -1 l JEANS AND CASUAL WEAR        
+l -1 l BIJOUTERIE                   -1 l CLOTHING IN GENERAL          
+l -1 l BIJOUTERIE                   -1 l JEANS AND CASUAL WEAR        
+l -1 l STATIONARY & CRAFT ARTICLES  -1 l JEANS AND CASUAL WEAR        
+l -1 l LADIESWEAR                   -1 s -1 l CLOTHING IN GENERAL          
+l -1 l LADIESWEAR                   -1 l -1 l CLOTHING IN GENERAL          
+l -1 l LADIESWEAR                   -1 l MISCELLANEOUS                
+l -1 l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+l -1 l CLOTHING IN GENERAL          -1 l CLOTHING IN GENERAL          
+l -1 l CLOTHING IN GENERAL          -1 l JEANS AND CASUAL WEAR        
+l -1 l JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+l -1 LADIESWEAR                   -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 s -1 s -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 s -1 l -1 l -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 s -1 l -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 s -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 l -1 s -1 l -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 l -1 s -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 l -1 l -1 s -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 l -1 l -1 l -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 l -1 l -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 l -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 l CLOTHING IN GENERAL          
+l SHOE STORE IN GENERAL        -1 l CLOTHING IN GENERAL          
+l MISCELLANEOUS                -1 l BIJOUTERIE                   
+l MISCELLANEOUS                -1 l JEANS AND CASUAL WEAR        
+l JEWELERY & ACCESSORIES       -1 l BIJOUTERIE                   
+l OPTICIAN                     -1 l BIJOUTERIE                   
+l OPTICIAN                     -1 l JEANS AND CASUAL WEAR        
+l BIJOUTERIE                   -1 s -1 s -1 l CLOTHING IN GENERAL          
+l BIJOUTERIE                   -1 s -1 s -1 l JEANS AND CASUAL WEAR        
+l BIJOUTERIE                   -1 s -1 l -1 l CLOTHING IN GENERAL          
+l BIJOUTERIE                   -1 s -1 l -1 l JEANS AND CASUAL WEAR        
+l BIJOUTERIE                   -1 s -1 l CLOTHING IN GENERAL          
+l BIJOUTERIE                   -1 s -1 l JEANS AND CASUAL WEAR        
+l BIJOUTERIE                   -1 l -1 s -1 l CLOTHING IN GENERAL          
+l BIJOUTERIE                   -1 l -1 s -1 l JEANS AND CASUAL WEAR        
+l BIJOUTERIE                   -1 l -1 l -1 l CLOTHING IN GENERAL          
+l BIJOUTERIE                   -1 l -1 l -1 l JEANS AND CASUAL WEAR        
+l BIJOUTERIE                   -1 l -1 l CLOTHING IN GENERAL          
+l BIJOUTERIE                   -1 l -1 l JEANS AND CASUAL WEAR        
+l BIJOUTERIE                   -1 l CLOTHING IN GENERAL          
+l BIJOUTERIE                   -1 l UNDERWEAR                    
+l BIJOUTERIE                   -1 l UNDERWEAR                    -1 s 
+l BIJOUTERIE                   -1 l UNDERWEAR                    -1 l 
+l BIJOUTERIE                   -1 l CLOTHING IN GENERAL          
+l BIJOUTERIE                   -1 l JEANS AND CASUAL WEAR        
+l BIJOUTERIE                   -1 l JEANS AND CASUAL WEAR        -1 l 
+l UNDERWEAR                    -1 s -1 l JEANS AND CASUAL WEAR        
+l UNDERWEAR                    -1 l -1 l JEANS AND CASUAL WEAR        
+l UNDERWEAR                    -1 l CLOTHING IN GENERAL          
+l UNDERWEAR                    -1 l STATIONARY & CRAFT ARTICLES  
+l UNDERWEAR                    -1 l STATIONARY & CRAFT ARTICLES  -1 s 
+l UNDERWEAR                    -1 l STATIONARY & CRAFT ARTICLES  -1 l 
+l UNDERWEAR                    -1 l STATIONARY & CRAFT ARTICLES  -1 l -1 s 
+l UNDERWEAR                    -1 l STATIONARY & CRAFT ARTICLES  -1 l -1 l 
+l UNDERWEAR                    -1 l JEANS AND CASUAL WEAR        
+l STATIONARY & CRAFT ARTICLES  -1 l JEANS AND CASUAL WEAR        
+l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+l LADIESWEAR                   -1 l LADIESWEAR                   
+l SHOE STORE IN GENERAL        -1 l CLOTHING IN GENERAL          
+l LADIESWEAR                   -1 s -1 l CLOTHING IN GENERAL          
+l LADIESWEAR                   -1 l -1 l CLOTHING IN GENERAL          
+l LADIESWEAR                   -1 l MISCELLANEOUS                
+l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+l LADIESWEAR                   -1 MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+l LADIESWEAR                   -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 l CLOTHING IN GENERAL          
+l CLOTHING IN GENERAL          -1 l JEANS AND CASUAL WEAR        
+l JEANS AND CASUAL WEAR        -1 l CLOTHING IN GENERAL          
+STATIONARY & CRAFT ARTICLES  -1 s SILVER & PLATINGS            -1 s BIJOUTERIE                   
+LADIESWEAR                   -1 l MISCELLANEOUS                -1 l CLOTHING IN GENERAL          
+LADIESWEAR                   l -1 CLOTHING IN GENERAL          s 
+
+
+#Estatísticas Gerais
+Número de Sequências: 349
+Ficheiro de Entrada: src/outputStoreDuration/itemsStores+duration.txt
+Ficheiro de Saída: src/outputStoreDuration/itemsStores+durationAnalysis.txt
+
+
+#Elementos que aparecem mais freqentemente
+loja 1 - 657 vezes - 188%
+loja 3 - 483 vezes - 138%
+loja 536 - 156 vezes - 44%
+loja 509 - 76 vezes - 21%
+loja 381 - 67 vezes - 19%
+loja 531 - 52 vezes - 14%
+loja 487 - 45 vezes - 12%
+loja 377 - 39 vezes - 11%
+loja 385 - 32 vezes - 9%
+loja 501 - 28 vezes - 8%
+
+#Elementos que aparecem mais freqentemente em pares
+3 536 - 131 vezes 
+3 509 - 41  vezes 
+3 531 - 41  vezes 
+1 377 - 37  vezes 
+3 381 - 36  vezes 
+1 509 - 35  vezes 
+1 381 - 31  vezes 
+3 487 - 31  vezes 
+1 536 - 25  vezes 
+1 501 - 19  vezes 
+
+#Elementos que aparecem mais vezes no início
+235x: 1 ... - 67%
+106x: 3 ... - 30%
+5x: 2 ... - 1%
+1x: 510 ... - 0%
+1x: 487 ... - 0%
+
+
+#Categorias mais frequentes
+191x: Categoria CLOTHING IN GENERAL           - 54%
+79x: Categoria BIJOUTERIE                    - 22%
+76x: Categoria JEANS AND CASUAL WEAR         - 21%
+67x: Categoria MISCELLANEOUS                 - 19%
+52x: Categoria LADIESWEAR                    - 14%

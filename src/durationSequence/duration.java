@@ -93,9 +93,9 @@ public class duration {
 		int dur = Integer.parseInt(duration);
 		
 		String resultado;
-		if(dur <=15)resultado="short";
-		else if(dur <= 30) resultado="medium";
-		else resultado="big";
+		if(dur <=15)resultado="s";
+		else if(dur <= 30) resultado="m";
+		else resultado="l";
 		
 		return resultado;
 	}

@@ -1,0 +1,195 @@
+#Substituição de nº loja pela categoria
+COMMUNICATIONS               MATRESS                      SUPERMARKET AND HIPERMARKET  
+COMMUNICATIONS               MATRESS                      PHARMACY                     
+TEENAGERS WEAR               CLOTHING IN GENERAL          JEWELERY & ACCESSORIES       
+TEENAGERS WEAR               JEWELERY & ACCESSORIES       SHOE STORE IN GENERAL        
+CLOTHING IN GENERAL          CHILDREN'S WEAR              CHILDREN'S WEAR              
+CHILDREN'S WEAR              CHILDREN'S WEAR              UNDERWEAR                    
+CHILDREN'S WEAR              UNDERWEAR                    SHOE STORE IN GENERAL        
+CHILDREN'S WEAR              SHOE STORE IN GENERAL        CLOTHING IN GENERAL          
+CHILDREN'S WEAR              SHOE STORE IN GENERAL        LADIESWEAR                   
+CHILDREN'S WEAR              LADIESWEAR                   CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          MISCELLANEOUS                CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          JEWELERY & ACCESSORIES       CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          OPTICIAN                     CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          OPTICIAN                     CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          BIJOUTERIE                   CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          BIJOUTERIE                   JEANS AND CASUAL WEAR        
+CLOTHING IN GENERAL          LADIESWEAR                   MISCELLANEOUS                
+CLOTHING IN GENERAL          LADIESWEAR                   CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          LADIESWEAR                   MISCELLANEOUS                
+CLOTHING IN GENERAL          LADIESWEAR                   CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          CLOTHING IN GENERAL          CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
+SHOE STORE IN GENERAL        MISCELLANEOUS                CLOTHING IN GENERAL          
+SHOE STORE IN GENERAL        MISCELLANEOUS                OPTICIAN                     
+SHOE STORE IN GENERAL        MISCELLANEOUS                BIJOUTERIE                   
+SHOE STORE IN GENERAL        MISCELLANEOUS                CLOTHING IN GENERAL          
+SHOE STORE IN GENERAL        MISCELLANEOUS                JEANS AND CASUAL WEAR        
+SHOE STORE IN GENERAL        OPTICIAN                     CLOTHING IN GENERAL          
+SHOE STORE IN GENERAL        OPTICIAN                     LEATHER GOODS / ACCESSORIES  
+SHOE STORE IN GENERAL        OPTICIAN                     BIJOUTERIE                   
+SHOE STORE IN GENERAL        OPTICIAN                     CLOTHING IN GENERAL          
+SHOE STORE IN GENERAL        OPTICIAN                     JEANS AND CASUAL WEAR        
+SHOE STORE IN GENERAL        BIJOUTERIE                   CLOTHING IN GENERAL          
+SHOE STORE IN GENERAL        BIJOUTERIE                   CLOTHING IN GENERAL          
+SHOE STORE IN GENERAL        BIJOUTERIE                   JEANS AND CASUAL WEAR        
+SHOE STORE IN GENERAL        CLOTHING IN GENERAL          CLOTHING IN GENERAL          
+SHOE STORE IN GENERAL        CLOTHING IN GENERAL          CLOTHING IN GENERAL          
+SHOE STORE IN GENERAL        CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        
+SHOE STORE IN GENERAL        JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
+MISCELLANEOUS                JEWELERY & ACCESSORIES       OPTICIAN                     
+MISCELLANEOUS                JEWELERY & ACCESSORIES       BIJOUTERIE                   
+MISCELLANEOUS                JEWELERY & ACCESSORIES       JEANS AND CASUAL WEAR        
+MISCELLANEOUS                OPTICIAN                     CLOTHING IN GENERAL          
+MISCELLANEOUS                OPTICIAN                     LEATHER GOODS / ACCESSORIES  
+MISCELLANEOUS                OPTICIAN                     BIJOUTERIE                   
+MISCELLANEOUS                OPTICIAN                     CLOTHING IN GENERAL          
+MISCELLANEOUS                OPTICIAN                     JEANS AND CASUAL WEAR        
+MISCELLANEOUS                LEATHER GOODS / ACCESSORIES  BIJOUTERIE                   
+MISCELLANEOUS                LEATHER GOODS / ACCESSORIES  CLOTHING IN GENERAL          
+MISCELLANEOUS                LEATHER GOODS / ACCESSORIES  JEANS AND CASUAL WEAR        
+MISCELLANEOUS                BIJOUTERIE                   CLOTHING IN GENERAL          
+MISCELLANEOUS                BIJOUTERIE                   CLOTHING IN GENERAL          
+MISCELLANEOUS                BIJOUTERIE                   JEANS AND CASUAL WEAR        
+MISCELLANEOUS                UNDERWEAR                    JEANS AND CASUAL WEAR        
+MISCELLANEOUS                CLOTHING IN GENERAL          CLOTHING IN GENERAL          
+MISCELLANEOUS                CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        
+MISCELLANEOUS                JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
+JEWELERY & ACCESSORIES       OPTICIAN                     CLOTHING IN GENERAL          
+JEWELERY & ACCESSORIES       OPTICIAN                     LEATHER GOODS / ACCESSORIES  
+JEWELERY & ACCESSORIES       OPTICIAN                     BIJOUTERIE                   
+JEWELERY & ACCESSORIES       OPTICIAN                     CLOTHING IN GENERAL          
+JEWELERY & ACCESSORIES       OPTICIAN                     JEANS AND CASUAL WEAR        
+JEWELERY & ACCESSORIES       LEATHER GOODS / ACCESSORIES  BIJOUTERIE                   
+JEWELERY & ACCESSORIES       BIJOUTERIE                   CLOTHING IN GENERAL          
+JEWELERY & ACCESSORIES       BIJOUTERIE                   UNDERWEAR                    
+JEWELERY & ACCESSORIES       BIJOUTERIE                   CLOTHING IN GENERAL          
+JEWELERY & ACCESSORIES       BIJOUTERIE                   JEANS AND CASUAL WEAR        
+JEWELERY & ACCESSORIES       CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        
+JEWELERY & ACCESSORIES       JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
+OPTICIAN                     LEATHER GOODS / ACCESSORIES  CLOTHING IN GENERAL          
+OPTICIAN                     LEATHER GOODS / ACCESSORIES  SWEETS AND CHOCOLATES        
+OPTICIAN                     LEATHER GOODS / ACCESSORIES  BIJOUTERIE                   
+OPTICIAN                     LEATHER GOODS / ACCESSORIES  CLOTHING IN GENERAL          
+OPTICIAN                     LEATHER GOODS / ACCESSORIES  JEANS AND CASUAL WEAR        
+OPTICIAN                     BIJOUTERIE                   CLOTHING IN GENERAL          
+OPTICIAN                     BIJOUTERIE                   UNDERWEAR                    
+OPTICIAN                     BIJOUTERIE                   CLOTHING IN GENERAL          
+OPTICIAN                     BIJOUTERIE                   JEANS AND CASUAL WEAR        
+OPTICIAN                     UNDERWEAR                    JEANS AND CASUAL WEAR        
+OPTICIAN                     CLOTHING IN GENERAL          CLOTHING IN GENERAL          
+OPTICIAN                     CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        
+OPTICIAN                     JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
+LEATHER GOODS / ACCESSORIES  BIJOUTERIE                   CLOTHING IN GENERAL          
+LEATHER GOODS / ACCESSORIES  BIJOUTERIE                   CLOTHING IN GENERAL          
+LEATHER GOODS / ACCESSORIES  BIJOUTERIE                   JEANS AND CASUAL WEAR        
+LEATHER GOODS / ACCESSORIES  CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        
+LEATHER GOODS / ACCESSORIES  JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
+BIJOUTERIE                   MISCELLANEOUS                CLOTHING IN GENERAL          
+BIJOUTERIE                   UNDERWEAR                    CLOTHING IN GENERAL          
+BIJOUTERIE                   UNDERWEAR                    STATIONARY & CRAFT ARTICLES  
+BIJOUTERIE                   UNDERWEAR                    SILVER & PLATINGS            
+BIJOUTERIE                   UNDERWEAR                    CLOTHING IN GENERAL          
+BIJOUTERIE                   UNDERWEAR                    JEANS AND CASUAL WEAR        
+BIJOUTERIE                   STATIONARY & CRAFT ARTICLES  CLOTHING IN GENERAL          
+BIJOUTERIE                   STATIONARY & CRAFT ARTICLES  JEANS AND CASUAL WEAR        
+BIJOUTERIE                   LADIESWEAR                   CLOTHING IN GENERAL          
+BIJOUTERIE                   CLOTHING IN GENERAL          CLOTHING IN GENERAL          
+BIJOUTERIE                   CLOTHING IN GENERAL          CLOTHING IN GENERAL          
+BIJOUTERIE                   CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        
+BIJOUTERIE                   JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
+UNDERWEAR                    STATIONARY & CRAFT ARTICLES  MENAGE ARTICLES AND UTENSILS 
+UNDERWEAR                    STATIONARY & CRAFT ARTICLES  CLOTHING IN GENERAL          
+UNDERWEAR                    STATIONARY & CRAFT ARTICLES  SILVER & PLATINGS            
+UNDERWEAR                    STATIONARY & CRAFT ARTICLES  BIJOUTERIE                   
+UNDERWEAR                    STATIONARY & CRAFT ARTICLES  JEANS AND CASUAL WEAR        
+UNDERWEAR                    SILVER & PLATINGS            BIJOUTERIE                   
+UNDERWEAR                    SILVER & PLATINGS            JEANS AND CASUAL WEAR        
+UNDERWEAR                    BIJOUTERIE                   JEANS AND CASUAL WEAR        
+UNDERWEAR                    CLOTHING IN GENERAL          CLOTHING IN GENERAL          
+UNDERWEAR                    CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        
+UNDERWEAR                    JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
+STATIONARY & CRAFT ARTICLES  SILVER & PLATINGS            MENAGE ARTICLES AND UTENSILS 
+STATIONARY & CRAFT ARTICLES  SILVER & PLATINGS            BIJOUTERIE                   
+STATIONARY & CRAFT ARTICLES  SILVER & PLATINGS            JEANS AND CASUAL WEAR        
+STATIONARY & CRAFT ARTICLES  BIJOUTERIE                   MENAGE ARTICLES AND UTENSILS 
+STATIONARY & CRAFT ARTICLES  BIJOUTERIE                   JEANS AND CASUAL WEAR        
+STATIONARY & CRAFT ARTICLES  CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        
+STATIONARY & CRAFT ARTICLES  JEANS AND CASUAL WEAR        MENAGE ARTICLES AND UTENSILS 
+STATIONARY & CRAFT ARTICLES  JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
+SILVER & PLATINGS            BIJOUTERIE                   MENAGE ARTICLES AND UTENSILS 
+SILVER & PLATINGS            BIJOUTERIE                   JEANS AND CASUAL WEAR        
+LADIESWEAR                   MISCELLANEOUS                CLOTHING IN GENERAL          
+LADIESWEAR                   SHOE STORE IN GENERAL        CLOTHING IN GENERAL          
+LADIESWEAR                   SHOE STORE IN GENERAL        LADIESWEAR                   
+LADIESWEAR                   LADIESWEAR                   CLOTHING IN GENERAL          
+UNDERWEAR                    SHOE STORE IN GENERAL        CLOTHING IN GENERAL          
+UNDERWEAR                    SHOE STORE IN GENERAL        LADIESWEAR                   
+UNDERWEAR                    LADIESWEAR                   CLOTHING IN GENERAL          
+SHOE STORE IN GENERAL        LADIESWEAR                   CLOTHING IN GENERAL          
+SHOE STORE IN GENERAL        LADIESWEAR                   LEATHER GOODS / ACCESSORIES  
+SHOE STORE IN GENERAL        LEATHER GOODS / ACCESSORIES  CLOTHING IN GENERAL          
+LADIESWEAR                   MISCELLANEOUS                CLOTHING IN GENERAL          
+LADIESWEAR                   LEATHER GOODS / ACCESSORIES  CLOTHING IN GENERAL          
+LADIESWEAR                   LADIESWEAR                   MISCELLANEOUS                
+LADIESWEAR                   LADIESWEAR                   CLOTHING IN GENERAL          
+LADIESWEAR                   CLOTHING IN GENERAL          CLOTHING IN GENERAL          
+LADIESWEAR                   JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
+LADIESWEAR                   MISCELLANEOUS                CLOTHING IN GENERAL          
+LADIESWEAR                   CLOTHING IN GENERAL          MISCELLANEOUS                
+LADIESWEAR                   CLOTHING IN GENERAL          CLOTHING IN GENERAL          
+LADIESWEAR                   JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          MISCELLANEOUS                CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          CLOTHING IN GENERAL          CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        CLOTHING IN GENERAL          
+JEANS AND CASUAL WEAR        MISCELLANEOUS                CLOTHING IN GENERAL          
+
+
+#Estatísticas Gerais
+Número de Sequências: 146
+Tamanho das Sequências: 3
+Ficheiro de Entrada: src/input/refin1-seq3.txt
+Ficheiro de Saída: src/output/outputrefin1-seq3.txt
+
+
+#Elementos que aparecem mais freqentemente
+loja 536 - 61 vezes - 41%
+loja 509 - 46 vezes - 31%
+loja 381 - 40 vezes - 27%
+loja 377 - 31 vezes - 21%
+loja 501 - 27 vezes - 18%
+loja 371 - 23 vezes - 15%
+loja 385 - 20 vezes - 13%
+loja 487 - 17 vezes - 11%
+loja 378 - 17 vezes - 11%
+loja 370 - 17 vezes - 11%
+
+
+#Elementos que aparecem mais vezes no início
+18x: 371 ... - 12%
+17x: 370 ... - 11%
+13x: 381 ... - 8%
+13x: 377 ... - 8%
+12x: 375 ... - 8%
+
+
+#Elementos que aparecem mais vezes no fim
+61x: ... 536 - 41%
+31x: ... 509 - 21%
+12x: ... 501 - 8%
+8x: ... 381 - 5%
+5x: ... 513 - 3%
+
+
+#Categorias mais frequentes
+87x: Categoria CLOTHING IN GENERAL           - 59%
+48x: Categoria BIJOUTERIE                    - 32%
+46x: Categoria JEANS AND CASUAL WEAR         - 31%
+34x: Categoria MISCELLANEOUS                 - 23%
+32x: Categoria OPTICIAN                      - 21%
+
+
+#Categorias únicas numa sequência
+2x: Categoria CLOTHING IN GENERAL           - 1%
