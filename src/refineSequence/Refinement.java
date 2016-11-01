@@ -16,7 +16,7 @@ public class Refinement {
 	public static void main(String [] args) throws IOException {
 
 		// The name of the file to open.
-		String fileName = "src/inputMovvo/inputMovvoCompleto.txt";
+		String fileName = "src/inputTimeOfDay/fimNoite.txt";
 
 		// This will reference one line at a time
 		String line = null;
@@ -31,7 +31,7 @@ public class Refinement {
 		String id= " ";
 		Integer size = 0;
 		ArrayList<String> saveString = new ArrayList<String>();
-		FileWriter writer = new FileWriter("src/output/outputRefinement2.txt", true);
+		FileWriter writer = new FileWriter("src/outputTimeOfDay/fimNoiteRefin.txt", true);
 		while((line = br.readLine()) != null) {
 			//Separar dois valores de cada linha
 
@@ -47,7 +47,7 @@ public class Refinement {
 			}
 
 			//Tem que escrever a linha inteira - Alterar o valor que compara com size para ser de comprimentos diferentes
-			else {if(!id.equals(splited[0]) && size > 1){
+			else {if(!id.equals(splited[0]) && size > 0){
 
 				//Escreve todas as lojas
 				for (int i = 0; i < saveString.size(); i++) {
