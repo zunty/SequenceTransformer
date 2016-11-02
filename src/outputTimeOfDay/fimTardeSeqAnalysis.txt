@@ -1,0 +1,89 @@
+#Substituição de nº loja pela categoria
+MISCELLANEOUS                CLOTHING IN GENERAL          
+COMMUNICATIONS               MATRESS                      
+TEENAGERS WEAR               JEWELERY & ACCESSORIES       
+CHILDREN'S WEAR              UNDERWEAR                    
+CHILDREN'S WEAR              UNDERWEAR                    
+CHILDREN'S WEAR              SHOE STORE IN GENERAL        
+CHILDREN'S WEAR              LADIESWEAR                   
+SHOE STORE IN GENERAL        CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          MISCELLANEOUS                
+CLOTHING IN GENERAL          CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          OPTICIAN                     
+CLOTHING IN GENERAL          LADIESWEAR                   
+JEWELERY & ACCESSORIES       LADIESWEAR                   
+OPTICIAN                     MISCELLANEOUS                
+SHOE STORE IN GENERAL        MISCELLANEOUS                
+MISCELLANEOUS                JEANS AND CASUAL WEAR        
+HAIRDRESSER                  OPTICIAN                     
+OPTICIAN                     LEATHER GOODS / ACCESSORIES  
+OPTICIAN                     CLOTHING IN GENERAL          
+OPTICIAN                     JEANS AND CASUAL WEAR        
+LEATHER GOODS / ACCESSORIES  JEANS AND CASUAL WEAR        
+BIJOUTERIE                   JEANS AND CASUAL WEAR        
+UNDERWEAR                    STATIONARY & CRAFT ARTICLES  
+UNDERWEAR                    JEANS AND CASUAL WEAR        
+STATIONARY & CRAFT ARTICLES  MENAGE ARTICLES AND UTENSILS 
+STATIONARY & CRAFT ARTICLES  SILVER & PLATINGS            
+SILVER & PLATINGS            MENAGE ARTICLES AND UTENSILS 
+SILVER & PLATINGS            BIJOUTERIE                   
+BIJOUTERIE                   MISCELLANEOUS                
+OPTICIAN                     JEWELERY & ACCESSORIES       
+JEWELERY & ACCESSORIES       MISCELLANEOUS                
+LADIESWEAR                   LADIESWEAR                   
+UNDERWEAR                    SHOE STORE IN GENERAL        
+SHOE STORE IN GENERAL        CLOTHING IN GENERAL          
+LADIESWEAR                   CLOTHING IN GENERAL          
+SHOE STORE IN GENERAL        CLOTHING IN GENERAL          
+LADIESWEAR                   CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        
+CLOTHING IN GENERAL          JEWELERY & ACCESSORIES       
+
+
+#Estatísticas Gerais
+Número de Sequências: 39
+Tamanho das Sequências: 2
+Ficheiro de Entrada: src/inputTimeOfDay/fimTardeSeq.txt
+Ficheiro de Saída: src/outputTimeOfDay/fimTardeSeqAnalysis.txt
+
+
+#Elementos que aparecem mais freqentemente
+loja 536 - 6 vezes - 15%
+loja 509 - 6 vezes - 15%
+loja 361 - 5 vezes - 12%
+loja 377 - 4 vezes - 10%
+loja 531 - 3 vezes - 7%
+loja 494 - 3 vezes - 7%
+loja 487 - 3 vezes - 7%
+loja 486 - 3 vezes - 7%
+loja 391 - 3 vezes - 7%
+loja 388 - 3 vezes - 7%
+
+
+#Elementos que aparecem mais vezes no início
+4x: 361 ... - 10%
+3x: 377 ... - 7%
+2x: 391 ... - 5%
+2x: 388 ... - 5%
+2x: 385 ... - 5%
+
+
+#Elementos que aparecem mais vezes no fim
+6x: ... 536 - 15%
+6x: ... 509 - 15%
+2x: ... 531 - 5%
+2x: ... 513 - 5%
+2x: ... 494 - 5%
+
+
+#Categorias mais frequentes
+13x: Categoria CLOTHING IN GENERAL           - 33%
+7x: Categoria OPTICIAN                      - 17%
+7x: Categoria MISCELLANEOUS                 - 17%
+6x: Categoria SHOE STORE IN GENERAL         - 15%
+6x: Categoria LADIESWEAR                    - 15%
+
+
+#Categorias únicas numa sequência
+1x: Categoria LADIESWEAR                    - 2%
+1x: Categoria CLOTHING IN GENERAL           - 2%

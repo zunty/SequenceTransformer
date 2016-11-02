@@ -1,0 +1,81 @@
+#Substituição de nº loja pela categoria
+MISCELLANEOUS                CLOTHING IN GENERAL          
+COMMUNICATIONS               MATRESS                      
+MATRESS                      SUPERMARKET AND HIPERMARKET  
+JEWELERY & ACCESSORIES       SHOE STORE IN GENERAL        
+CHILDREN'S WEAR              SHOE STORE IN GENERAL        
+CHILDREN'S WEAR              LADIESWEAR                   
+CHILDREN'S WEAR              SHOE STORE IN GENERAL        
+SHOE STORE IN GENERAL        CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          JEWELERY & ACCESSORIES       
+SHOE STORE IN GENERAL        CLOTHING IN GENERAL          
+MISCELLANEOUS                BIJOUTERIE                   
+MISCELLANEOUS                CLOTHING IN GENERAL          
+MISCELLANEOUS                JEANS AND CASUAL WEAR        
+HAIRDRESSER                  OPTICIAN                     
+OPTICIAN                     LEATHER GOODS / ACCESSORIES  
+OPTICIAN                     CLOTHING IN GENERAL          
+OPTICIAN                     JEANS AND CASUAL WEAR        
+LEATHER GOODS / ACCESSORIES  SWEETS AND CHOCOLATES        
+BIJOUTERIE                   CLOTHING IN GENERAL          
+BIJOUTERIE                   JEANS AND CASUAL WEAR        
+UNDERWEAR                    JEANS AND CASUAL WEAR        
+STATIONARY & CRAFT ARTICLES  SILVER & PLATINGS            
+SILVER & PLATINGS            MENAGE ARTICLES AND UTENSILS 
+SILVER & PLATINGS            BIJOUTERIE                   
+BIJOUTERIE                   MENAGE ARTICLES AND UTENSILS 
+STATIONARY & CRAFT ARTICLES  CHINA & GLASSWARE            
+UNDERWEAR                    CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          PERFUMES / COSMETICS         
+LADIESWEAR                   LADIESWEAR                   
+UNDERWEAR                    SHOE STORE IN GENERAL        
+LADIESWEAR                   CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        
+
+
+#Estatísticas Gerais
+Número de Sequências: 32
+Tamanho das Sequências: 2
+Ficheiro de Entrada: src/inputTimeOfDay/iniNoiteSeq.txt
+Ficheiro de Saída: src/outputTimeOfDay/iniNoiteSeqAnalysis.txt
+
+
+#Elementos que aparecem mais freqentemente
+loja 509 - 5 vezes - 15%
+loja 501 - 4 vezes - 12%
+loja 377 - 4 vezes - 12%
+loja 486 - 3 vezes - 9%
+loja 391 - 3 vezes - 9%
+loja 381 - 3 vezes - 9%
+loja 371 - 3 vezes - 9%
+loja 536 - 2 vezes - 6%
+loja 513 - 2 vezes - 6%
+loja 487 - 2 vezes - 6%
+
+
+#Elementos que aparecem mais vezes no início
+3x: 377 ... - 9%
+3x: 371 ... - 9%
+2x: 391 ... - 6%
+2x: 381 ... - 6%
+1x: 531 ... - 3%
+
+
+#Elementos que aparecem mais vezes no fim
+5x: ... 509 - 15%
+3x: ... 501 - 9%
+3x: ... 486 - 9%
+2x: ... 536 - 6%
+2x: ... 513 - 6%
+
+
+#Categorias mais frequentes
+11x: Categoria CLOTHING IN GENERAL           - 34%
+6x: Categoria SHOE STORE IN GENERAL         - 18%
+5x: Categoria JEANS AND CASUAL WEAR         - 15%
+5x: Categoria BIJOUTERIE                    - 15%
+4x: Categoria OPTICIAN                      - 12%
+
+
+#Categorias únicas numa sequência
+1x: Categoria LADIESWEAR                    - 3%

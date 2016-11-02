@@ -17,8 +17,8 @@ public class Converter {
 	public static void main(String [] args) throws IOException {
 
 		// The name of the file to open.
-		String inputFileName = "src/input/refin1-seq2.txt";		//#alterar o nome do ficheiro de entrada
-		String outputFileName = "src/output/outputrefin1-seq2.txt";		//#alterar o nome do ficheiro de saída
+		String inputFileName = "src/inputTimeOfDay/fimNoiteSeq.txt";		//#alterar o nome do ficheiro de entrada
+		String outputFileName = "src/outputTimeOfDay/fimNoiteSeqAnalysis.txt";		//#alterar o nome do ficheiro de saída
 		
 		// This will reference one line at a time
 		String line = null;	
@@ -28,10 +28,10 @@ public class Converter {
 		BufferedReader br = new BufferedReader(reader);
 		
 		FileWriter writer = new FileWriter(outputFileName, true);
-		FileWriter writeraux = new FileWriter("src/input/auxiliar.txt", true);
-		FileWriter writeraux2 = new FileWriter("src/input/auxiliar2.txt", true);
-		Reader readerAux = new InputStreamReader(new FileInputStream("src/input/auxiliar.txt"), "utf-8");
-		Reader readerAux2 = new InputStreamReader(new FileInputStream("src/input/auxiliar2.txt"), "utf-8");
+		FileWriter writeraux = new FileWriter("src/inputMovvo/auxiliar.txt", true);
+		FileWriter writeraux2 = new FileWriter("src/inputMovvo/auxiliar2.txt", true);
+		Reader readerAux = new InputStreamReader(new FileInputStream("src/inputMovvo/auxiliar.txt"), "utf-8");
+		Reader readerAux2 = new InputStreamReader(new FileInputStream("src/inputMovvo/auxiliar2.txt"), "utf-8");
 		BufferedReader brAux = new BufferedReader(readerAux);
 		BufferedReader brAux2 = new BufferedReader(readerAux2);
 

@@ -1,0 +1,75 @@
+#Substituição de nº loja pela categoria
+MISCELLANEOUS                CLOTHING IN GENERAL          
+COMMUNICATIONS               MATRESS                      
+TEENAGERS WEAR               SUPERMARKET AND HIPERMARKET  
+TEENAGERS WEAR               JEWELERY & ACCESSORIES       
+SHOE STORE IN GENERAL        MISCELLANEOUS                
+CHILDREN'S WEAR              SHOE STORE IN GENERAL        
+CHILDREN'S WEAR              SHOE STORE IN GENERAL        
+CLOTHING IN GENERAL          MISCELLANEOUS                
+SHOE STORE IN GENERAL        MISCELLANEOUS                
+SHOE STORE IN GENERAL        CLOTHING IN GENERAL          
+MISCELLANEOUS                JEANS AND CASUAL WEAR        
+JEWELERY & ACCESSORIES       BIJOUTERIE                   
+JEWELERY & ACCESSORIES       CLOTHING IN GENERAL          
+OPTICIAN                     LEATHER GOODS / ACCESSORIES  
+OPTICIAN                     CLOTHING IN GENERAL          
+OPTICIAN                     JEANS AND CASUAL WEAR        
+LEATHER GOODS / ACCESSORIES  CLOTHING IN GENERAL          
+BIJOUTERIE                   JEANS AND CASUAL WEAR        
+UNDERWEAR                    STATIONARY & CRAFT ARTICLES  
+STATIONARY & CRAFT ARTICLES  MENAGE ARTICLES AND UTENSILS 
+STATIONARY & CRAFT ARTICLES  SILVER & PLATINGS            
+SILVER & PLATINGS            MENAGE ARTICLES AND UTENSILS 
+SILVER & PLATINGS            BIJOUTERIE                   
+BIJOUTERIE                   MENAGE ARTICLES AND UTENSILS 
+LADIESWEAR                   CLOTHING IN GENERAL          
+LADIESWEAR                   CLOTHING IN GENERAL          
+CLOTHING IN GENERAL          JEANS AND CASUAL WEAR        
+
+
+#Estatísticas Gerais
+Número de Sequências: 27
+Tamanho das Sequências: 2
+Ficheiro de Entrada: src/inputTimeOfDay/iniTardeSeq.txt
+Ficheiro de Saída: src/outputTimeOfDay/iniTardeSeqAnalysis.txt
+
+
+#Elementos que aparecem mais freqentemente
+loja 501 - 5 vezes - 18%
+loja 509 - 4 vezes - 14%
+loja 536 - 3 vezes - 11%
+loja 513 - 3 vezes - 11%
+loja 391 - 3 vezes - 11%
+loja 388 - 3 vezes - 11%
+loja 377 - 3 vezes - 11%
+loja 531 - 2 vezes - 7%
+loja 486 - 2 vezes - 7%
+loja 392 - 2 vezes - 7%
+
+
+#Elementos que aparecem mais vezes no início
+3x: 377 ... - 11%
+2x: 391 ... - 7%
+2x: 388 ... - 7%
+2x: 375 ... - 7%
+2x: 370 ... - 7%
+
+
+#Elementos que aparecem mais vezes no fim
+4x: ... 509 - 14%
+4x: ... 501 - 14%
+3x: ... 536 - 11%
+3x: ... 513 - 11%
+2x: ... 486 - 7%
+
+
+#Categorias mais frequentes
+9x: Categoria CLOTHING IN GENERAL           - 33%
+5x: Categoria SHOE STORE IN GENERAL         - 18%
+5x: Categoria MISCELLANEOUS                 - 18%
+4x: Categoria JEANS AND CASUAL WEAR         - 14%
+4x: Categoria BIJOUTERIE                    - 14%
+
+
+#Categorias únicas numa sequência
